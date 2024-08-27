@@ -81,7 +81,7 @@
 .about-us-container {
   max-width: 800px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 18px;
   background-color: #ffffff;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -89,7 +89,7 @@
 
 .about-us-container p {
   margin-bottom: 20px;
-  font-size: 17px;
+  font-size: 16px;
   line-height: 1.6;
   color: grey;
 }
@@ -98,52 +98,3 @@
   font-weight: 800;
   color: #797272;
 }
-
-@media (min-width: 320px) and (max-width: 776px) {
-  .about-head {
-    margin-top: 70px;
-  }
-
-  .mainh1,
-  .mainh11 {
-    font-size: 40px;
-  }
-
-  .confrences {
-    padding-block: 40px;
-  }
-
-  .Services {
-    padding: 40px 0;
-  }
-
-  .interior {
-    padding: 40px 0;
-  }
-
-  .contact {
-    padding-block:40px;
-  }
-  .text-heading {
-    font-size: 16px;
-    margin-top: 10px;
-  }
-  ul{
-    padding: 0px;
-  }
-  .about-us-container p{
-    margin-bottom: 16px;
-    font-size: 12px;
-    line-height: 1.6;  
-  }
-  /* .second-hr{
-    display: none;
-  } */
-}
-/* @media (min-width: 777px) and (max-width: 991px) {
-
-  .second-hr{
-    width: 100%;
-    margin-top: 30px;
-  }
-} */

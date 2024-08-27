@@ -6,7 +6,8 @@ import Navbar from 'react-bootstrap/Navbar';
 import logo from '../assets/logo.png';
 import Carousel from 'react-bootstrap/Carousel';
 import main from '../assets/main.jpg';
-
+import main2 from "../assets/crousel 2.jpg"
+import main3 from "../assets/crousel3.jpg"
 const Header = () => {
     return (
         <div className='parent' id='home'>
@@ -38,14 +39,14 @@ const Header = () => {
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <img className="d-block w-100" src={main} alt="Second slide" />
+                        <img className="d-block w-100" src={main2} alt="Second slide" />
                         <Carousel.Caption className="left-align-text">
                             <h3>Second slide label</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <img className="d-block w-100" src={main} alt="Third slide" />
+                        <img className="d-block w-100" src={main3} alt="Third slide" />
                         <Carousel.Caption className="left-align-text">
                             <h3>Third slide label</h3>
                             <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
