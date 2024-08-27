@@ -1,0 +1,149 @@
+.contact {
+  padding-block: 70px;
+}
+
+.about-head {
+  color: grey;
+  font-weight: 700;
+  font-size: 45px;
+  font-family: " Open Sans";
+}
+
+.first-hr {
+  border: 2px solid grey;
+  margin: 0 0 40px;
+  width: 100px;
+  opacity: .75;
+}
+
+.contact-us-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-us-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.contact-form .form-group {
+  margin-bottom: 15px;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: grey;
+  margin-left: 3px;
+  margin-bottom: 9px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #007bff;
+}
+
+.contact-form button {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  color: #fff;
+  background-color: grey;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #4e5153;
+}
+
+.about-us-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-us-container p {
+  margin-bottom: 20px;
+  font-size: 17px;
+  line-height: 1.6;
+  color: grey;
+}
+
+.company-name {
+  font-weight: 800;
+  color: #797272;
+}
+
+@media (min-width: 320px) and (max-width: 776px) {
+  .about-head {
+    margin-top: 70px;
+  }
+
+  .mainh1,
+  .mainh11 {
+    font-size: 40px;
+  }
+
+  .confrences {
+    padding-block: 40px;
+  }
+
+  .Services {
+    padding: 40px 0;
+  }
+
+  .interior {
+    padding: 40px 0;
+  }
+
+  .contact {
+    padding-block:40px;
+  }
+  .text-heading {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  ul{
+    padding: 0px;
+  }
+  .about-us-container p{
+    margin-bottom: 16px;
+    font-size: 12px;
+    line-height: 1.6;  
+  }
+  /* .second-hr{
+    display: none;
+  } */
+}
+/* @media (min-width: 777px) and (max-width: 991px) {
+
+  .second-hr{
+    width: 100%;
+    margin-top: 30px;
+  }
+} */

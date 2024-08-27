@@ -1,0 +1,46 @@
+.footer{
+    background: black;
+    padding: 40px 30px 30px;
+    display: flex;
+}
+
+.li-head{
+    color: white;
+    list-style: none;
+    font-size: 25px;
+    font-weight: 600;
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.li-text{
+    color: white;
+    list-style: none;
+    
+}
+
+.li-text1{
+    color: white;
+}
+/* .icons-p{
+    display: flex;
+} */
+.icons-p li{
+    margin: 0px 30px 0 0;
+    list-style: none;
+    color: white;
+    font-size: 22px;
+}
+span{
+    font-weight: 600;
+}
+.second-hr{
+    border: 1px solid rgb(248, 244, 244);
+    margin: 0 43px 40px;
+    opacity: .5;
+    width: 100%;
+}
+.copyRight p{
+    color: white;
+    font-size: 18px;
+}

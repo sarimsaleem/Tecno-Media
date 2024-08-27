@@ -1,0 +1,10 @@
+
+.confrences{
+    padding-block: 70px;
+}
+
+@media (min-width: 768px) {
+  .row{
+    padding: 0px;
+  }
+}
