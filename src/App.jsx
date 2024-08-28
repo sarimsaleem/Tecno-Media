@@ -7,20 +7,24 @@ import Conferences from "./Components/Confrences/Conferences";
 import ProductLaunch from "./Components/ProuductLaunch/ProductLaunch";
 import Footer from "./Components/Footer/Footer";
 import About from "./Components/About/About";
+import Header2 from "./Components/Navbar/Header2";
 
 function App() {
 
   return (
-   <>
-    <Header/>
-    <Fabrication/>
-    <Services/>
-    <Conferences/>
-    <ProductLaunch />
-    <Interior/> 
-    <About/>
-    <Footer />
-   </> 
+    <>
+      <Header2/>
+        <div style={{ height: '65px', padding: '0px' }}>
+        </div>
+      <Header />
+      <Fabrication />
+      <Services />
+      <Conferences />
+      <ProductLaunch />
+      <Interior />
+      <About />
+      <Footer />
+    </>
   )
 }
 

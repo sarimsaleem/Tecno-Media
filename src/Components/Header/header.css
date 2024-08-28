@@ -1,16 +1,6 @@
-.navbar {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 10;
-    background: transparent;
-}
-
 .carousel-item img {
     width: 100%;
-    height: 100vh;
-    /* object-fit: cover; */
+    height: 90vh;
 }
 
 .imgDiv {
@@ -19,56 +9,8 @@
     background-position: center;
     background-repeat: no-repeat;
 }
-
-.img-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    height: 550px;
-    margin-top: 55px;
-}
-
-.headerHeading {
-    font-size: 100px;
-    color: white;
-    font-family: baskervville_SC;
-}
-
-.img-text p {
-    font-size: 35px;
-    color: white;
-    font-family: baskervville_SC;
-}
-
-.navLinks {
-    color: white;
-    font-size: 20px;
-    margin: 0 10px;
-}
-
-.logo {
-    width: 250px;
-    margin: 0;
-    padding: 0;
-}
-
 .parent {
     width: 100%;
     height: 100%;
-    position: relative;
 }
 
-.navbar>.container,
-.navbar>.container-fluid,
-.navbar>.container-lg,
-.navbar>.container-md,
-.navbar>.container-sm,
-.navbar>.container-xl,
-.navbar>.container-xxl {
-    align-items: start;
-
-}
-
-.navbar-expand-lg .navbar-nav {
-    margin-top: 10px;
-}
