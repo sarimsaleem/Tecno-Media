@@ -1,9 +1,11 @@
 import React from 'react';
 import './header.css';
 import Carousel from 'react-bootstrap/Carousel';
-import main from '../assets/main.jpg';
-import main2 from "../assets/crousel 2.jpg"
-import main3 from "../assets/crousel3.jpg"
+// import main from '../assets/main.jpg';
+import main from "../../assets/images/fabrication/3.jpg"
+import main2 from "../../assets/images/fabrication/6.jpg"
+import main3 from "../../assets/images/fabrication/4.jpg"
+// import main3 from "../assets/crousel3.jpg"
 const Header = () => {
     return (
         <div className='parent' id='home'>
