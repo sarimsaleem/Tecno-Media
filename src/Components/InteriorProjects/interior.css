@@ -4,15 +4,15 @@
 
 .mainh1 {
     font-size: 50px;
-    color: grey;
-    font-family: " Open Sans";
+    color: black;
+    font-family: "Open Sans";
     margin-bottom: 30px;
 }
 .text-heading {
     font-size: 22px;
     color: grey;
     font-weight: 400;
-    font-family: " Open Sans";
+    font-family: "Open Sans";
     padding: 0px;
     margin: 10px 0;
 }

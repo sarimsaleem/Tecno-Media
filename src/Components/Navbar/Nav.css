@@ -1,8 +1,15 @@
+/* Reset default body and html padding/margin */
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal overflow */
+}
+
 .navbar {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.94);
+    background-color:#ffffff;
     color: #000;
     display: flex;
     justify-content: space-between;
@@ -11,9 +18,9 @@
     z-index: 1000;
     transition: background-color 0.3s;
 }
-
 .navbar.scrolled {
-    background-color: #cac7c7;
+    background-color: #ffffff;
+    box-shadow: 3px 3px 10px 5px #00000014;
 }
 
 .navbar-nav {
@@ -55,9 +62,9 @@
     display: none;
 }
 
-.FJKB {
+/* .FJKB {
     padding: 0px;
-}
+} */
 
 /* Media Query for small devices */
 @media (max-width: 768px) {

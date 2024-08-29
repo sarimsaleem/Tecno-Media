@@ -13,9 +13,9 @@ function App() {
 
   return (
     <>
+    
       <Header2/>
-        <div style={{ height: '65px', padding: '0px' }}>
-        </div>
+        
       <Header />
       <Fabrication />
       <Services />
