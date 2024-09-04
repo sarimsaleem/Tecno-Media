@@ -19,10 +19,10 @@ const Footer = () => {
                     <div className="col-md-4">
                         <ul>
                             <li className='li-head'>Address</li>
-                            <li className='li-text1 my-2'><span>Head Office</span> <br />
+                            <li className='li-text my-2'><span>Head Office</span> <br />
                                 123 Maple Street Springfield, IL 62701
                                 United States</li>
-                            <li className='li-text1 my-2'><span>Branch Office</span><br />
+                            <li className='li-text my-2'><span>Branch Office</span><br />
                                 456 Oak Avenue Denver, CO 80202 United States</li>
                         </ul>
                     </div>
@@ -47,10 +47,11 @@ const Footer = () => {
                             </div>
                         </ul>
                     </div>
-                    <hr className='second-hr' />
-                    <div className="copyRight">
-                        <p className='text-center copyText'>&copy; 2024 Tecno Media All rights reserved.</p>
-                    </div>
+                </div>
+
+                <hr className='second-hr' />
+                <div className="copyRight">
+                    <p className='text-center copyText'>&copy; 2024 Tecno Media All rights reserved.</p>
                 </div>
             </div>
         </div>
