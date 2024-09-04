@@ -10,7 +10,7 @@ const Footer = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-md-4 column">
-                        <ul>
+                        <ul className='first-ul'>
                             <li className='li-head'>About Us</li>
                             <li className='li-text'>We are specializes in planning, organizing, and executing events of all sizes, from corporate conferences and product launches to weddings and private parties.</li>
                             <li className='li-text'> Event management companies offer creative solutions tailored to the unique needs and goals of each client. </li>
@@ -48,10 +48,11 @@ const Footer = () => {
                         </ul>
                     </div>
                 </div>
-
-                <hr className='second-hr' />
-                <div className="copyRight">
-                    <p className='text-center copyText'>&copy; 2024 Tecno Media All rights reserved.</p>
+                <div className="row">
+                    <hr className='second-hr' />
+                    <div className="copyRight">
+                        <p className='text-center copyText'>&copy; 2024 Tecno Media All rights reserved.</p>
+                    </div>
                 </div>
             </div>
         </div>
