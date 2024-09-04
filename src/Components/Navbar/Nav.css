@@ -19,8 +19,9 @@ body, html {
     transition: background-color 0.3s;
 }
 .navbar.scrolled {
-    background-color: #ffffff;
-    box-shadow: 3px 3px 10px 5px #00000014;
+    background-color: #f8f9fa; /* Slightly lighter background */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow */
+    color: #000; /* Ensure text remains visible */
 }
 
 .navbar-nav {

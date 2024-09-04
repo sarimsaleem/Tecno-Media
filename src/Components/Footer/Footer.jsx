@@ -20,10 +20,10 @@ const Footer = () => {
                         <ul>
                             <li className='li-head'>Address</li>
                             <li className='li-text1 my-2'><span>Head Office</span> <br />
-                            123 Maple Street Springfield, IL 62701
-                            United States</li>
+                                123 Maple Street Springfield, IL 62701
+                                United States</li>
                             <li className='li-text1 my-2'><span>Branch Office</span><br />
-                            456 Oak Avenue Denver, CO 80202 United States</li>
+                                456 Oak Avenue Denver, CO 80202 United States</li>
                         </ul>
                     </div>
                     <div className="col-md-4">
@@ -33,7 +33,7 @@ const Footer = () => {
                             </li>
                             <div className="icons-p">
                                 <li>
-                                    <CiFacebook /> Facebook 
+                                    <CiFacebook /> Facebook
                                 </li>
                                 <li>
                                     <CiInstagram /> Instagram
@@ -42,14 +42,14 @@ const Footer = () => {
                                     <FaWhatsapp /> Whatsapp
                                 </li>
                                 <li>
-                                <CiMail /> E-mail
+                                    <CiMail /> E-mail
                                 </li>
                             </div>
                         </ul>
                     </div>
                     <hr className='second-hr' />
                     <div className="copyRight">
-                    <p className='text-center'>&copy; 2024 Tecno Media All rights reserved.</p>
+                        <p className='text-center copyText'>&copy; 2024 Tecno Media All rights reserved.</p>
                     </div>
                 </div>
             </div>

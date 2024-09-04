@@ -1,10 +1,10 @@
-.footer{
+.footer {
     background: black;
-    padding: 40px 30px 30px;
+    padding: 40px 0;
     display: flex;
 }
 
-.li-head{
+.li-head {
     color: white;
     list-style: none;
     font-size: 25px;
@@ -13,34 +13,44 @@
     margin-bottom: 25px;
 }
 
-.li-text{
+.li-text {
     color: white;
     list-style: none;
-    
+
 }
 
-.li-text1{
+.li-text1 {
     color: white;
 }
+
 /* .icons-p{
     display: flex;
 } */
-.icons-p li{
+.icons-p li {
     margin: 0px 30px 0 0;
     list-style: none;
     color: white;
     font-size: 22px;
 }
-span{
+
+span {
     font-weight: 600;
 }
-.second-hr{
+
+.second-hr {
     border: 1px solid rgb(248, 244, 244);
-    margin: 0 43px 40px;
+    margin: 30px auto;
     opacity: .5;
-    width: 100%;
+    /* width: 100%; */
 }
-.copyRight p{
+
+.copyText {
     color: white;
     font-size: 18px;
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
 }

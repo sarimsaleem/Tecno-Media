@@ -3,14 +3,14 @@
 }
 
 .about-head {
-  color: grey;
+  color: black;
   font-weight: 700;
   font-size: 45px;
-  font-family: " Open Sans";
+  font-family: "Open Sans";
 }
 
 .first-hr {
-  border: 2px solid grey;
+  border: 2px solid rgb(0, 0, 0);
   margin: 0 0 40px;
   width: 100px;
   opacity: .75;
@@ -89,7 +89,7 @@
 
 .about-us-container p {
   margin-bottom: 20px;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 1.6;
   color: grey;
 }
