@@ -9,14 +9,14 @@ const Footer = () => {
         <div className='footer'>
             <div className="container">
                 <div className="row">
-                    <div className="col-md-4">
+                    <div className="col-md-4 column">
                         <ul>
                             <li className='li-head'>About Us</li>
                             <li className='li-text'>We are specializes in planning, organizing, and executing events of all sizes, from corporate conferences and product launches to weddings and private parties.</li>
                             <li className='li-text'> Event management companies offer creative solutions tailored to the unique needs and goals of each client. </li>
                         </ul>
                     </div>
-                    <div className="col-md-4">
+                    <div className="col-md-4 column">
                         <ul>
                             <li className='li-head'>Address</li>
                             <li className='li-text my-2'><span>Head Office</span> <br />
@@ -26,7 +26,7 @@ const Footer = () => {
                                 456 Oak Avenue Denver, CO 80202 United States</li>
                         </ul>
                     </div>
-                    <div className="col-md-4">
+                    <div className="col-md-4 column">
                         <ul className='icon-ul'>
                             <li className='li-head'>
                                 Contact Us
