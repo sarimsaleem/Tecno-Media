@@ -27,9 +27,6 @@ const Interior = () => {
         <div className='text-containers'>
           <h1 className='mainh1'>Interior Project</h1>
         </div>
-        <h2 className='text-heading'>
-          Advance LABs and collection centers all over Pakistan
-        </h2>
         <div className='row'>
           <div className='col-md-8'>
             <div
@@ -50,7 +47,6 @@ const Interior = () => {
             </div>
           </div>
         </div>
-        <h2 className='text-heading'>Office Interior in Dubai</h2>
         <div className='row'>
           <div className='col-md-4'>
             <div

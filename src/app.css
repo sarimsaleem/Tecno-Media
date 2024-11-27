@@ -12,8 +12,9 @@
     }
   
     .mainh1,
-    .mainh11 {
-      font-size: 40px;
+    .mainh11,
+    .about-head {
+      font-size: 30px;
     }
   
     .confrences {

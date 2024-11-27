@@ -20,7 +20,7 @@
 }
 
 .icons-p li {
-    margin:4px 0 0;
+    margin: 4px 0 0;
     list-style: none;
     color: white;
     font-size: 22px;
@@ -47,16 +47,7 @@ ul {
     margin: 0 15px;
     padding: 0;
 }
-.column{
+
+.column {
     padding: 0;
 }
-.first-ul{
-    margin-left: 0;
-}
-
-/* ul:first-child{
-    margin-left: 0;
-}
-ul:last-child{
-    margin-right: 0;
-} */
