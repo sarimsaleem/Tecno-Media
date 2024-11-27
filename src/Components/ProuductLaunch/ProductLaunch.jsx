@@ -23,12 +23,12 @@ const ProductLaunch = () => {
   };
 
   return (
-    <div className='product' id='product'>
-      <div className='container'>
-        <div className='text-containers'>
-          <h1 className='mainh1'>Product Launching</h1>
+    <div className="product" id="product">
+      <div className="container">
+        <div className="text-containers">
+          <h1 className="mainh1">Product Launching</h1>
         </div>
-        <h2 className='text-heading'>
+        <h2 className="text-heading">
           Hisense Product Launching in PC Hotel Lahore <br /> Islamabad and Karachi
         </h2>
         <Swiper
@@ -46,31 +46,13 @@ const ProductLaunch = () => {
         >
           {images.map((img, index) => (
             <SwiperSlide key={index}>
-              <div className='image-container' onClick={() => openLightbox(index)} style={{ cursor: 'pointer' }}>
-                <img src={img} alt={`Product Launch ${index + 1}`} />
-              </div>
-            </SwiperSlide>
-          ))}
-        </Swiper>
-      </div>
-      <div className='container'>
-        <Swiper
-          spaceBetween={10}
-          loop={true}
-          autoplay={{
-            delay: 5000,
-            disableOnInteraction: false,
-          }}
-          breakpoints={{
-            320: { slidesPerView: 1 },
-            768: { slidesPerView: 2 },
-            1024: { slidesPerView: 3 },
-          }}
-        >
-          {images.map((img, index) => (
-            <SwiperSlide key={index}>
-              <div className='image-container' onClick={() => openLightbox(index)} style={{ cursor: 'pointer' }}>
-                <img src={img} alt={`Product Launch ${index + 1}`} />
+              <div
+                className="image-container"
+                onClick={() => openLightbox(index)}
+                style={{ cursor: 'pointer' }}
+              >
+                <img src={img} alt={`Product Launch ${index + 1}`} className="product-img" />
+                {/* <div className="hover-overlay">Click to View</div> */}
               </div>
             </SwiperSlide>
           ))}

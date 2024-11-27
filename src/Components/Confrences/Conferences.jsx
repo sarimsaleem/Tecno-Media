@@ -34,11 +34,11 @@ const Conferences = () => {
                 {images.map((image, index) => (
                     <div className="col-md-6 col-sm-12 col-lg-4" key={index}>
                         <div className="image-container">
-                            <img 
-                                className='service-img1 PART2' 
-                                src={image.src} 
-                                alt={image.alt} 
-                                onClick={() => openLightbox(index)} 
+                            <img
+                                className='service-img1 PART2'
+                                src={image.src}
+                                alt={image.alt}
+                                onClick={() => openLightbox(index)}
                             />
                         </div>
                     </div>
@@ -55,11 +55,11 @@ const Conferences = () => {
                     }))}
                     index={photoIndex}
                     onClose={() => setOpen(false)}
-                    fullScreen 
+                    fullScreen
                     zoom={{
                         maxZoomPixelRatio: 3,
                     }}
-                    carousel={false} 
+                    carousel={false}
                 />
             )}
         </div>

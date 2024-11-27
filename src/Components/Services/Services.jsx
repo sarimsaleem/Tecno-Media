@@ -1,25 +1,30 @@
 import React, { useState } from 'react';
 import './services.css';
-import img1 from '../assets/1.jpg';
-import img2 from '../assets/2.jpg';
-import img3 from '../assets/3.jpg';
-import img4 from '../assets/44.jpg';
 import Lightbox from 'yet-another-react-lightbox';
 import 'yet-another-react-lightbox/styles.css';
-
+import img1 from "./../../newAssets/services1.jpg"
+import img2 from "./../../newAssets/services2.jpg"
+import img3 from "./../../newAssets/services3.jpg"
+import img4 from "./../../newAssets/services4.jpg"
+import img5 from "./../../newAssets/services5.jpg"
+import img6 from "./../../newAssets/services6.jpg"
+import img7 from "./../../newAssets/services7.jpg"
+import img8 from "./../../newAssets/services8.jpg"
+import img9 from "./../../newAssets/services9.jpg"
 const Services = () => {
   const [open, setOpen] = useState(false);
   const [photoIndex, setPhotoIndex] = useState(0);
 
   const images = [
     { src: img1, label: 'Fabrication' },
-    { src: img2, label: 'Printing' },
-    { src: img3, label: 'Media Solutions' },
-    { src: img4, label: 'Ambiance' },
-    { src: img1, label: 'Event Management' },
-    { src: img2, label: 'Furniture' },
-    { src: img3, label: 'Product Launching' },
-    { src: img4, label: 'Conference Event' },
+    { src: img2, label: 'Ambiance' },
+    { src: img3, label: 'Conference ' },
+    { src: img4, label: 'Float designing' },
+    { src: img5, label: 'Furniture'},
+    { src: img6, label: '⁠Interior Designing'},
+    { src: img7, label: 'Mall kiosk' },
+    { src: img8, label: ' ⁠Media Solution' },
+    { src: img9, label: 'Product Launching' },
   ];
 
   const openLightbox = (index) => {
@@ -35,7 +40,7 @@ const Services = () => {
           {images.map((img, index) => (
             <div
               key={index}
-              className='col-md-6 col-sm-12 col-lg-4 col-xl-3'
+              className='col-md-6 col-sm-12 col-lg-4 col-xl-4'
               onClick={() => openLightbox(index)}
               style={{ cursor: 'pointer' }}
             >

@@ -30,7 +30,6 @@ const Fabrication = () => {
         <div className='text-containers'>
           <h1 className='mainh1'>Stall Fabrication</h1>
         </div>
-        <h2 className='text-heading'>IGATEX Expo Center Lahore</h2>
         <Swiper
           spaceBetween={10}
           loop={true}
@@ -66,9 +65,6 @@ const Fabrication = () => {
       </div>
 
       <div className='container'>
-        <h2 className='text-heading'>
-          ATC Oil and Gas Show Serena Hotel Islamabad
-        </h2>
         <Swiper
           spaceBetween={10}
           loop={true}
