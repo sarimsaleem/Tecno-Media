@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
-import p1 from '../assets/p1.jpeg';
-import p2 from '../assets/p2.jpeg';
-import p3 from '../assets/p3.jpeg';
-import p4 from '../assets/p4.jpeg';
-import p5 from '../assets/p5.jpeg';
-import p6 from '../assets/p6.jpeg';
+import launch1 from './../../newAssets/launch1.jpg';
+import launch2 from './../../newAssets/launch2.jpg';
+import launch3 from './../../newAssets/launch3.jpg';
+import launch4 from './../../newAssets/launch4.jpg';
+
+
+
 import './product.css';
 import Lightbox from 'yet-another-react-lightbox';
 import 'yet-another-react-lightbox/styles.css';
@@ -15,7 +16,7 @@ const ProductLaunch = () => {
   const [open, setOpen] = useState(false);
   const [photoIndex, setPhotoIndex] = useState(0);
 
-  const images = [p1, p2, p3, p4, p5, p6];
+  const images = [launch1, launch2, launch3, launch4];
 
   const openLightbox = (index) => {
     setPhotoIndex(index);
@@ -28,9 +29,6 @@ const ProductLaunch = () => {
         <div className="text-containers">
           <h1 className="mainh1">Product Launching</h1>
         </div>
-        <h2 className="text-heading">
-          Hisense Product Launching in PC Hotel Lahore <br /> Islamabad and Karachi
-        </h2>
         <Swiper
           spaceBetween={10}
           loop={true}

@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
-import int1 from '../assets/int1.jpeg';
-import int2 from '../assets/int2.jpeg';
-import int4 from '../assets/int4.jpeg';
-import int5 from '../assets/int5.jpeg';
-import int6 from '../assets/int6.jpeg';
+import int1 from '../../newAssets/projects1.jpg'
+import int2 from '../../newAssets/projects2.jpg'
+import int3 from '../../newAssets/projects3.jpg'
+import int4 from '../../newAssets/projects4.jpg'
+import int5 from '../../newAssets/projects5.jpg'
+import int6 from '../../newAssets/projects6.jpg'
+
 import './interior.css';
 import Lightbox from 'yet-another-react-lightbox';
 import 'yet-another-react-lightbox/styles.css';
