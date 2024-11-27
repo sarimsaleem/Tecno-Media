@@ -1,12 +1,11 @@
 import React, { useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import launch1 from './../../newAssets/launch1.jpg';
 import launch2 from './../../newAssets/launch2.jpg';
 import launch3 from './../../newAssets/launch3.jpg';
 import launch4 from './../../newAssets/launch4.jpg';
-
-
 
 import './product.css';
 import Lightbox from 'yet-another-react-lightbox';
@@ -33,9 +32,10 @@ const ProductLaunch = () => {
           spaceBetween={10}
           loop={true}
           autoplay={{
-            delay: 5000,
-            disableOnInteraction: false,
+            delay: 1500, 
+            disableOnInteraction: false, 
           }}
+          modules={[Autoplay]} 
           breakpoints={{
             320: { slidesPerView: 1 },
             768: { slidesPerView: 2 },
@@ -50,7 +50,6 @@ const ProductLaunch = () => {
                 style={{ cursor: 'pointer' }}
               >
                 <img src={img} alt={`Product Launch ${index + 1}`} className="product-img" />
-                {/* <div className="hover-overlay">Click to View</div> */}
               </div>
             </SwiperSlide>
           ))}

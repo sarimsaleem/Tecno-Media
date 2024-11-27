@@ -18,7 +18,7 @@ const Services = () => {
   const images = [
     { src: img1, label: 'Fabrication' },
     { src: img2, label: 'Ambiance' },
-    { src: img3, label: 'Conference ' },
+    { src: img3, label: '⁠Conference & Corporate Events' },
     { src: img4, label: 'Float designing' },
     { src: img5, label: 'Furniture'},
     { src: img6, label: '⁠Interior Designing'},

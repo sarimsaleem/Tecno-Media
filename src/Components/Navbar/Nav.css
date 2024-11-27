@@ -46,9 +46,6 @@ body, html {
     font-weight: 500;
 }
 
-.nav-item a:hover {
-    border-bottom: 1px solid #000000;
-}
 
 .navbar-icons {
     display: flex;

@@ -30,7 +30,7 @@ function Header2() {
   return (
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className='container'>
-        <div className="navbar-logo">
+        <div className="navbar-logo" >
           <img src={logo} alt="Logo" />
         </div>
         <ul className={`navbar-nav ${menuOpen ? 'show' : ''}`}>

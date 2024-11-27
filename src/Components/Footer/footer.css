@@ -51,3 +51,14 @@ ul {
 .column {
     padding: 0;
 }
+
+.icons-p li {
+    cursor: pointer;
+    list-style: none;
+
+}
+
+.icons-p li a {
+    color: white;
+    text-decoration: none;
+}

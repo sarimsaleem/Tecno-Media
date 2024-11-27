@@ -18,12 +18,12 @@ const Footer = () => {
                     </div>
                     <div className="col-md-4 column">
                         <ul>
-                            <li className='li-head'>Address</li>
-                            <li className='li-text my-2'><span>Head Office</span> <br />
-                                123 Maple Street Springfield, IL 62701
-                                United States</li>
-                            <li className='li-text my-2'><span>Branch Office</span><br />
-                                456 Oak Avenue Denver, CO 80202 United States</li>
+                            <li className='li-head'>Info</li>
+                            <li className='li-text my-2'><span>Address</span> <br />
+                                Suite # 512, 5th Floor, Aman Business Center Johar Town, Lahore
+                            </li>
+                            <li className='li-text my-2'><span>Phone</span><br />
+                                +923334496258, 04235310888</li>
                         </ul>
                     </div>
                     <div className="col-md-4 column">
@@ -33,16 +33,24 @@ const Footer = () => {
                             </li>
                             <div className="icons-p">
                                 <li>
-                                    <CiFacebook /> Facebook
+                                    <a href="https://www.facebook.com/TechnoMedia786/" target="_blank" rel="noopener noreferrer">
+                                        <CiFacebook /> Facebook
+                                    </a>
+                                </li>
+                                {/* <li>
+                                    <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+                                        <CiInstagram /> Instagram
+                                    </a>
+                                </li> */}
+                                <li>
+                                    <a href="tel:+923334496258" target="_blank" rel="noopener noreferrer">
+                                        <FaWhatsapp /> Whatsapp
+                                    </a>
                                 </li>
                                 <li>
-                                    <CiInstagram /> Instagram
-                                </li>
-                                <li>
-                                    <FaWhatsapp /> Whatsapp
-                                </li>
-                                <li>
-                                    <CiMail /> E-mail
+                                    <a href="mailto:ansabkhan93@yahoo.com">
+                                        <CiMail /> E-mail
+                                    </a>
                                 </li>
                             </div>
                         </ul>
