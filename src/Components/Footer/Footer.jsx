@@ -33,7 +33,7 @@ const Footer = () => {
                             </li>
                             <div className="icons-p">
                                 <li>
-                                    <a href="https://www.facebook.com/TechnoMedia786/" target="_blank" rel="noopener noreferrer">
+                                    <a href="https://www.facebook.com/technomedia92/" target="_blank" rel="noopener noreferrer">
                                         <CiFacebook /> Facebook
                                     </a>
                                 </li>
