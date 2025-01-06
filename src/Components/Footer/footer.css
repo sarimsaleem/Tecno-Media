@@ -51,14 +51,18 @@ ul {
 .column {
     padding: 0;
 }
-
-.icons-p li {
+.icons-p li{
+    margin: 15px 0;
+}
+.icons-p li svg {
     cursor: pointer;
     list-style: none;
-
+    font-size: 26px;
 }
 
 .icons-p li a {
     color: white;
     text-decoration: none;
+    margin-left: 10px;
+    font-size: 20px;
 }

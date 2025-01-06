@@ -33,8 +33,9 @@ const Footer = () => {
                             </li>
                             <div className="icons-p">
                                 <li>
+                                    <CiFacebook />
                                     <a href="https://www.facebook.com/technomedia92/" target="_blank" rel="noopener noreferrer">
-                                        <CiFacebook /> Facebook
+                                        Facebook
                                     </a>
                                 </li>
                                 {/* <li>
@@ -43,13 +44,15 @@ const Footer = () => {
                                     </a>
                                 </li> */}
                                 <li>
+                                    <FaWhatsapp />
                                     <a href="tel:+923334496258" target="_blank" rel="noopener noreferrer">
-                                        <FaWhatsapp /> Whatsapp
+                                        Whatsapp
                                     </a>
                                 </li>
                                 <li>
+                                    <CiMail />
                                     <a href="mailto:ansabkhan93@yahoo.com">
-                                        <CiMail /> E-mail
+                                        E-mail
                                     </a>
                                 </li>
                             </div>
